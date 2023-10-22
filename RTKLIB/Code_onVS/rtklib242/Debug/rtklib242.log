@@ -1,0 +1,273 @@
+﻿  tle.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  streamsvr.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  stream.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\stream.c(628): warning C4101: “rs”: 未引用的局部变量
+  solution.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  sbas.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  rtksvr.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  rtkpos.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  rtkcmn.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): warning C4477: 'sscanf' : format string '%ld' requires an argument of type 'long *', but variadic argument 5 has type 'time_t *'
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): note: consider using '%lld' in the format string
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): note: consider using '%I64d' in the format string
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): warning C4477: 'sscanf' : format string '%ld' requires an argument of type 'long *', but variadic argument 6 has type 'time_t *'
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): note: consider using '%lld' in the format string
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): note: consider using '%I64d' in the format string
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): warning C4477: 'sscanf' : format string '%ld' requires an argument of type 'long *', but variadic argument 7 has type 'time_t *'
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): note: consider using '%lld' in the format string
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtkcmn.c(2620): note: consider using '%I64d' in the format string
+  rtcm3e.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  rtcm3.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  rtcm2.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  rtcm.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  main242.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  rinex.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  ublox.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  ss2.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  skytraq.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\skytraq.c(197): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\skytraq.c(319): warning C4244: “=”: 从“unsigned short”转换到“unsigned char”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\skytraq.c(326): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  septentrio.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(229): warning C4101: “pos”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(231): warning C4101: “tstr”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(229): warning C4101: “lli”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(231): warning C4101: “q”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(229): warning C4101: “index”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(229): warning C4101: “freq”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(227): warning C4101: “tn”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(227): warning C4101: “CurrentTime”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(229): warning C4101: “dTowInt”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(546): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(548): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(550): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(552): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(554): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(556): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(558): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(560): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(562): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(564): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(566): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(568): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(570): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(572): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(574): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(576): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(578): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(580): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(820): warning C4101: “toc”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(874): warning C4101: “toc”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(934): warning C4101: “prn”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(997): warning C4101: “resp”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(997): warning C4101: “id”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(994): warning C4101: “sat”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(1021): warning C4101: “fid”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\septentrio.c(1025): warning C4101: “i”: 未引用的局部变量
+  rt17.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\rt17.c(1713): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\rt17.c(1746): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+  rcvlex.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  正在生成代码...
+  正在编译...
+  nvs.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\nvs.c(105): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\nvs.c(267): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  novatel.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  javad.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  gw10.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  crescent.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  binex.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\binex.c(1004): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rcv\binex.c(1029): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  rcvraw.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  qzslex.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  preceph.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  ppp_ar.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  ppp.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  postpos.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  pntpos.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  options.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  lambda.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  ionex.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  geoid.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  ephemeris.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  download.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\download.c(322): warning C4101: “stat”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\download.c(505): warning C4101: “remot_p”: 未引用的局部变量
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\download.c(776): warning C4101: “tow”: 未引用的局部变量
+  datum.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  正在生成代码...
+  正在编译...
+  convrnx.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  convkml.c
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): warning C4005: “ENAGLO”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(56): note: 命令行参数: 参见前面的“ENAGLO”定义
+e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): warning C4005: “ENACMP”: 宏重定义
+  e:\mu\postgraduate0\software\rtklib_vs\rtklib\rtklib242\src242\rtklib.h(58): note: 命令行参数: 参见前面的“ENACMP”定义
+  正在生成代码...
+  rtklib242.vcxproj -> E:\Mu\postgraduate0\software\rtklib_VS\RTKLIB\Debug\rtklib242.exe
