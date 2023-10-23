@@ -2,7 +2,7 @@
 
 ## 1.RTKLIB认识
 
-目前有==**2.4.2 p13**==的<u>**稳定**</u>版本和==**2.4.3**==的**<u>开发测试</u>**版本，
+目前有***2.4.2 p13***的**稳定**版本和***2.4.3***的**开发测试**版本，
 
  2.4.2 版本有PPP-AR部分，而2.4.3没有PPP-AR
 
@@ -26,27 +26,27 @@
 
 ### 2.2 修改bug
 
-1. <u>**error C1083: 无法打开包括文件:“rtklib.h”: No such file ordirectory**</u>
+1. > **error C1083: 无法打开包括文件:“rtklib.h”: No such file ordirectory**
+   >
+   > **解决**：这是因为rcv里的文件找不到rtklib.h这个头文件。把在 **src/rcv文件夹几个的.c文件** 中的 **#include "rtklib.h"** 修改为 **#include "../rtklib.h”**
 
-==**解决**==：这是因为rcv里的文件找不到rtklib.h这个头文件。把在 **src/rcv文件夹几个的.c文件** 中的 **#include "rtklib.h"** 修改为 **#include "../rtklib.h”**
+2. >  **error C1083：无法打开包括文件: "pthread.h": No such file or directory**
+   >
+   > **解决**：项目要在Windows下编译运行的，加**WIN32**，加了这一项后RTKLIB就不会用Linux下的<pthread.h>和<sys/select.h>
 
-2. <u>**error C1083：无法打开包括文件: "pthread.h": No such file or directory**</u>
+3. > **error C4703: 使用了可能未初始化的本地指针变量“sbs”**
+   >
+   > **解决**：对指针变量进行初始化，根据VS提示将ephemeris.c中`const sbssatp_t *sbs;`改为`const sbssatp_t *sbs = NULL;`
 
-==**解决**==：项目要在Windows下编译运行的，加**WIN32**，加了这一项后RTKLIB就不会用Linux下的<pthread.h>和<sys/select.h>
-
-3. <u>**error C4703: 使用了可能未初始化的本地指针变量“sbs” **</u>
-
-==**解决**==：对指针变量进行初始化，根据VS提示将ephemeris.c中`const sbssatp_t *sbs;`改为`const sbssatp_t *sbs = NULL;`
-
-4. <u>**error C2466: 不能分配常量大小为 0 的数组**</u>
-
-根据报错发现没有预定义宏时数组大小为0，因此需加上`ENAGLO`,为了使代码能运行加上其他卫星系统的预定义
+4. > **error C2466: 不能分配常量大小为 0 的数组**
+   >
+   > 根据报错发现没有预定义宏时数组大小为0，因此需加上`ENAGLO`,为了使代码能运行加上其他卫星系统的预定义
 
 ![image-20231021221656828](https://raw.githubusercontent.com/mulin33/ImageHost/main/blogImg/image-20231021221656828.png)
 
 ----------
 
-<u>**2-4bug修改如下**</u>：项目属性-->C/C++-->预处理器-->预处理器定义-->粘贴下面
+***2-4bug修改如下***：项目属性-->C/C++-->预处理器-->预处理器定义-->粘贴下面
 
 ```
 _CRT_SECURE_NO_WARNINGS
@@ -61,28 +61,24 @@ ENAIRN
 
 --------
 
-5. **<u>error C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型</u> **
+5. > **error C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型**
+   >
+   > **解决**：出现这个问题是因为勾选了VS的SDL检查[^SDL]，关闭SDL检查：项目属性-->C/C++-->SDL检查，选测否，就可以将其关闭了
 
-==**解决**==：出现这个问题是因为勾选了VS的SDL检查[^SDL]，关闭SDL检查：项目属性-->C/C++-->SDL检查，选测否，就可以将其关闭了
-
-6. <u>LNK2019 无法解析的外部符号：...，该符号在函数的...中被引用 </u>
-
-==**解决**==：该函数引用了外部DLL文件，需要链接两个DLL文件
-
-项目属性--> 链接器 --> 附加依赖项-->编辑
-
-```
-winmm.lib
-ws2_32.lib
-```
+6. > LNK2019 无法解析的外部符号：...，该符号在函数的...中被引用 
+   >
+   > **解决**：该函数引用了外部DLL文件，需要链接两个DLL文件,项目属性--> 链接器 --> 附加依赖项-->编辑-->粘贴如下
+   >
+   > ```
+   > winmm.lib
+   > ws2_32.lib
+   > ```
 
 ###  2.3 生成项目
 
 出现如下结果即生成成功
 
-![image-20231022104302770](https://raw.githubusercontent.com/mulin33/ImageHost/main/blogImg/image-20231022104302770.png)
-
-
+![生成项目](https://raw.githubusercontent.com/mulin33/ImageHost/main/blogImg/image-20231022104302770.png)
 
 
 
