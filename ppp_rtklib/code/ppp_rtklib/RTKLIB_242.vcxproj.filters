@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\ImportData">
+      <UniqueIdentifier>{d8ce4f8f-a35b-489d-b7a3-e8c8e5b6ffa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tool">
+      <UniqueIdentifier>{2429bb5f-7e4d-4d7d-97bb-19d003302ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\model">
+      <UniqueIdentifier>{bb648fa2-b7de-41f4-bee2-cfeaba16e939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\preprocess">
+      <UniqueIdentifier>{d3cdfced-757f-4dd6-a928-8a9ef56e344f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\outresult">
+      <UniqueIdentifier>{2d0ad692-1f2d-4afb-a4d5-103af1032d5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ppp_main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="r_atx.c">
+      <Filter>源文件\ImportData</Filter>
+    </ClCompile>
+    <ClCompile Include="r_sp3.c">
+      <Filter>源文件\ImportData</Filter>
+    </ClCompile>
+    <ClCompile Include="rinex.c">
+      <Filter>源文件\ImportData</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinate.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="setpcv.c">
+      <Filter>源文件\preprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="ppp_process.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="satsysno.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="time_string.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="trace.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="uncompress.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="clutter.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="input_output.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="ppp.c">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="pntpos.c">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ephemeris.c">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="solution.c">
+      <Filter>源文件\outresult</Filter>
+    </ClCompile>
+    <ClCompile Include="error_model.c">
+      <Filter>源文件\model</Filter>
+    </ClCompile>
+    <ClCompile Include="preceph.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="geoidh.c">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="rtkpos.c">
+      <Filter>源文件\preprocess</Filter>
+    </ClCompile>
+    <ClCompile Include="freeData.c">
+      <Filter>源文件\outresult</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rtklib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
