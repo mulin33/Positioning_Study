@@ -1386,6 +1386,8 @@ extern void stec_free(nav_t *nav);
 extern int  readpcv(const char *file, pcvs_t *pcvs);
 extern pcv_t *searchpcv(int sat, const char *type, gtime_t time,
                         const pcvs_t *pcvs);
+extern void setpcv(gtime_t time, prcopt_t *popt, nav_t *nav, const pcvs_t *pcvs,
+	const pcvs_t *pcvr, const sta_t *sta);
 extern void antmodel(const pcv_t *pcv, const double *del, const double *azel,
                      int opt, double *dant);
 extern void antmodel_s(const pcv_t *pcv, double nadir, double *dant);
@@ -1532,6 +1534,8 @@ extern int readsolstatt(char *files[], int nfile, gtime_t ts, gtime_t te,
 extern int inputsol(unsigned char data, gtime_t ts, gtime_t te, double tint,
                     int qflag, const solopt_t *opt, solbuf_t *solbuf);
 
+extern int outhead(const char *outfile, char **infile, int n,
+	const prcopt_t *popt, const solopt_t *sopt, obs_t obss);
 extern int outprcopts(unsigned char *buff, const prcopt_t *opt);
 extern int outsolheads(unsigned char *buff, const solopt_t *opt);
 extern int outsols  (unsigned char *buff, const sol_t *sol, const double *rb,

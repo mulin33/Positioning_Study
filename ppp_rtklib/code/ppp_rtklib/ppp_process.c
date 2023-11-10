@@ -1,6 +1,6 @@
 #include "rtklib.h"
 
-/*存储观测的数据*/
+/*存储从文件获得的数据*/
 static pcvs_t pcvss = { 0 };        /* receiver antenna parameters */
 static pcvs_t pcvsr = { 0 };        /* satellite antenna parameters */
 static obs_t obss = { 0 };          /* observation data */
@@ -11,10 +11,9 @@ static int iobsr = 0;            /* current reference observation data index */
 static int revs = 0;            /* analysis direction (0:forward,1:backward) */
 static int aborts = 0;            /* abort status */
 static int nepoch = 0;            /* number of observation epochs */
-
-
 prcopt_t popt_ = { 0 };
 
+/* ppp_main.c prcopt_t和solopt_t初始化-------------------------------------*/
 const prcopt_t prcopt_default = { /* defaults processing options */
 	PMODE_SINGLE,0,2,SYS_GPS,   /* mode,soltype,nf,navsys */
 	15.0*D2R,{ { 0,0 } },           /* elmin,snrmask */
@@ -56,109 +55,6 @@ const double chisqr[100] = {      /* chi-sqr(n) (alpha=0.001) */
 	138 ,139 ,140 ,142 ,143 ,144 ,145 ,147 ,148 ,149
 };
 
-/*功能函数--------------------------------------------------------------------*/
-/*输出文件头函数*/
-/* output reference position -------------------------------------------------*/
-static void outrpos(FILE *fp, const double *r, const solopt_t *opt)
-{
-	double pos[3], dms1[3], dms2[3];
-	const char *sep = opt->sep;
-
-	trace(3, "outrpos :\n");
-
-	if (opt->posf == SOLF_LLH || opt->posf == SOLF_ENU) {
-		ecef2pos(r, pos);
-		if (opt->degf) {
-			deg2dms(pos[0] * R2D, dms1);
-			deg2dms(pos[1] * R2D, dms2);
-			fprintf(fp, "%3.0f%s%02.0f%s%08.5f%s%4.0f%s%02.0f%s%08.5f%s%10.4f",
-				dms1[0], sep, dms1[1], sep, dms1[2], sep, dms2[0], sep, dms2[1],
-				sep, dms2[2], sep, pos[2]);
-		}
-		else {
-			fprintf(fp, "%13.9f%s%14.9f%s%10.4f", pos[0] * R2D, sep, pos[1] * R2D,
-				sep, pos[2]);
-		}
-	}
-	else if (opt->posf == SOLF_XYZ) {
-		fprintf(fp, "%14.4f%s%14.4f%s%14.4f", r[0], sep, r[1], sep, r[2]);
-	}
-}
-/* output header -------------------------------------------------------------*/
-static void outheader(FILE *fp, char **file, int n, const prcopt_t *popt,
-	const solopt_t *sopt)
-{
-	const char *s1[] = { "GPST","UTC","JST" };
-	gtime_t ts, te;
-	double t1, t2;
-	int i, j, w1, w2;
-	char s2[32], s3[32];
-
-	trace(3, "outheader: n=%d\n", n);
-
-	if (sopt->posf == SOLF_NMEA) return;
-
-	if (sopt->outhead) {
-		if (!*sopt->prog) {
-			fprintf(fp, "%s program   : RTKLIB ver.%s\n", COMMENTH, VER_RTKLIB);
-		}
-		else {
-			fprintf(fp, "%s program   : %s\n", COMMENTH, sopt->prog);
-		}
-		for (i = 0; i<n; i++) {
-			fprintf(fp, "%s inp file  : %s\n", COMMENTH, file[i]);
-		}
-		for (i = 0; i<obss.n; i++)    if (obss.data[i].rcv == 1) break;
-		for (j = obss.n - 1; j >= 0; j--) if (obss.data[j].rcv == 1) break;
-		if (j<i) { fprintf(fp, "\n%s no rover obs data\n", COMMENTH); return; }
-		ts = obss.data[i].time;
-		te = obss.data[j].time;
-		t1 = time2gpst(ts, &w1);
-		t2 = time2gpst(te, &w2);
-		if (sopt->times >= 1) ts = gpst2utc(ts);
-		if (sopt->times >= 1) te = gpst2utc(te);
-		if (sopt->times == 2) ts = timeadd(ts, 9 * 3600.0);
-		if (sopt->times == 2) te = timeadd(te, 9 * 3600.0);
-		time2str(ts, s2, 1);
-		time2str(te, s3, 1);
-		fprintf(fp, "%s obs start : %s %s (week%04d %8.1fs)\n", COMMENTH, s2, s1[sopt->times], w1, t1);
-		fprintf(fp, "%s obs end   : %s %s (week%04d %8.1fs)\n", COMMENTH, s3, s1[sopt->times], w2, t2);
-	}
-	if (sopt->outopt) {
-		outprcopt(fp, popt);
-	}
-	if (PMODE_DGPS <= popt->mode&&popt->mode <= PMODE_FIXED&&popt->mode != PMODE_MOVEB) {
-		fprintf(fp, "%s ref pos   :", COMMENTH);
-		outrpos(fp, popt->rb, sopt);
-		fprintf(fp, "\n");
-	}
-	if (sopt->outhead || sopt->outopt) fprintf(fp, "%s\n", COMMENTH);
-
-	outsolhead(fp, sopt);
-}
-/* write header to output file -----------------------------------------------*/
-static int outhead(const char *outfile, char **infile, int n,
-	const prcopt_t *popt, const solopt_t *sopt)
-{
-	FILE *fp = stdout;
-
-	trace(3, "outhead: outfile=%s n=%d\n", outfile, n);
-
-	if (*outfile) {
-		createdir(outfile);
-
-		if (!(fp = fopen(outfile, "w"))) {
-			showmsg("error : open output file %s", outfile);
-			return 0;
-		}
-	}
-	/* output header */
-	outheader(fp, infile, n, popt, sopt);
-
-	if (*outfile) fclose(fp);
-
-	return 1;
-}
 /* show message and check break ----------------------------------------------*/
 static int checkbrk(const char *format, ...)
 {
@@ -170,12 +66,22 @@ static int checkbrk(const char *format, ...)
 	va_end(arg);
 	return showmsg(buff);
 }
+/* open output file for append -----------------------------------------------*/
+static FILE *openfile(const char *outfile)
+{
+	trace(3, "openfile: outfile=%s\n", outfile);
+
+	return !*outfile ? stdout : fopen(outfile, "a");
+}
 /* search next observation data index ----------------------------------------*/
 static int nextobsf(const obs_t *obs, int *i, int rcv)
 {
 	double tt;
 	int n;
 
+/* comment:这里设置rcv的情况在于判断观测数据是几个接收机的数据
+* 比如在PPP情况下，rcv=1，那么*i等于rcv=1的历元开始索引,data是一个历元一个卫星的观测数据数组
+* n返回的就是从在一个历元内可用的rcv=1的观测数据或者一个历元观测数据-------------------------*/
 	for (; *i<obs->n; (*i)++) if (obs->data[*i].rcv == rcv) break;
 	for (n = 0; *i + n<obs->n; n++) {
 		tt = timediff(obs->data[*i + n].time, obs->data[*i].time);
@@ -183,23 +89,10 @@ static int nextobsf(const obs_t *obs, int *i, int rcv)
 	}
 	return n;
 }
-static int nextobsb(const obs_t *obs, int *i, int rcv)
-{
-	double tt;
-	int n;
-
-	for (; *i >= 0; (*i)--) if (obs->data[*i].rcv == rcv) break;
-	for (n = 0; *i - n >= 0; n++) {
-		tt = timediff(obs->data[*i - n].time, obs->data[*i].time);
-		if (obs->data[*i - n].rcv != rcv || tt<-DTTOL) break;
-	}
-	return n;
-}
 /* input obs data, navigation messages and sbas correction -------------------*/
 static int inputobs(obsd_t *obs, int solq, const prcopt_t *popt)
 {
 	gtime_t time = { 0 };
-	char path[1024];
 	int i, nu, nr, n = 0;
 
 	trace(3, "infunc  : revs=%d iobsu=%d iobsr=%d \n", revs, iobsu, iobsr);
@@ -247,15 +140,19 @@ static void procpos(FILE *fp, const prcopt_t *popt, const solopt_t *sopt,
 
 	rtkinit(&rtk, popt);
 
+	/* inputobs读取一个历元的数据
+	* nobs: 一个历元可用卫星观测数据数量*/
 	while ((nobs = inputobs(obs, rtk.sol.stat, popt)) >= 0) {
 
 		/* exclude satellites */
+		/* navsys:预先设置的卫星系统 ，exsats:预先设置剔除的卫星*/
 		for (i = n = 0; i<nobs; i++) {
 			if ((satsys(obs[i].sat, NULL)&popt->navsys) &&
 				popt->exsats[obs[i].sat - 1] != 1) obs[n++] = obs[i];
 		}
-		if (n <= 0) continue;
+		if (n <= 0) continue;	//n：剔除后最后保留的一个历元卫星数量
 
+		/* rtkpos:进行单历元定位(实时动态定位)*/
 		if (!rtkpos(&rtk, obs, n, &navs)) continue;
 
 		if (mode == 0) { /* forward/backward */
@@ -279,16 +176,8 @@ static void procpos(FILE *fp, const prcopt_t *popt, const solopt_t *sopt,
 }
 
 
-/* open output file for append -----------------------------------------------*/
-static FILE *openfile(const char *outfile)
-{
-	trace(3, "openfile: outfile=%s\n", outfile);
 
-	return !*outfile ? stdout : fopen(outfile, "a");
-}
 /*-----------------------------------------------------------------------------*/
-
-
 /*模块一：输入数据*/
 int importData(const filopt_t *fopt, const prcopt_t *popt,pcvs_t *pcvs, pcvs_t *pcvr, 
 	obs_t *obs, nav_t *nav,sta_t *sta)
@@ -344,7 +233,9 @@ int importData(const filopt_t *fopt, const prcopt_t *popt,pcvs_t *pcvs, pcvs_t *
 	/* delete duplicated ephemeris */
 	uniqnav(nav);
 
+	return 1;
 }
+
 /*模块二：预处理及处理入口procpos*/
 int process(const filopt_t *fopt, const prcopt_t *popt, pcvs_t *pcvs, pcvs_t *pcvr,
 	obs_t *obs, nav_t *nav, sta_t *sta, char *outfile, const solopt_t *sopt)
@@ -359,8 +250,7 @@ int process(const filopt_t *fopt, const prcopt_t *popt, pcvs_t *pcvs, pcvs_t *pc
 	char* infile[] = { fopt->obs ,fopt->nav,fopt->sp3,fopt->clk };
 
 	/* write header to output file */
-	outhead(outfile, infile, 4, &popt_, sopt);
-
+	outhead(outfile, infile, 4, &popt_, sopt, obss);
 
 	iobsu = iobsr = revs = aborts = 0;
 	if (popt_.mode == PMODE_SINGLE || popt_.soltype == 0) {
@@ -369,7 +259,6 @@ int process(const filopt_t *fopt, const prcopt_t *popt, pcvs_t *pcvs, pcvs_t *pc
 			fclose(fp);
 		}
 	}
-
 }
 /*ppp处理过程：ppp_process*/
 int ppp_process(const prcopt_t *popt, const solopt_t *sopt,const filopt_t *fopt,char *outfile)

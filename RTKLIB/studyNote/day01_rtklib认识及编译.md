@@ -80,6 +80,48 @@ ENAIRN
 
 ![生成项目](https://raw.githubusercontent.com/mulin33/ImageHost/main/blogImg/image-20231022104302770.png)
 
+## 3.procpos时序图
+
+```mermaid
+%% ppp_procpos后面的时序图
+sequenceDiagram
+autonumber
+
+participant p as postpos.c
+participant r as rtkpos.c
+participant spp as pntpos.c
+
+p->>+p:procpos(mode=0即froward)
+p->>+r:rtkinit(rtk,popt)
+r-->>-p:初始化rtk_t结构体
+
+%% 开始单历元解算
+rect rgb(253 245 230)
+loop while(nobs=inputobs()>=0)
+
+p->>p:inputobs输出一个历元观测数据obsd_t obs
+
+p->>+r:rtkpos(rtk,obs,nobs,navs)<br/>ok
+
+r->>+spp:pntpos()
+spp-->>-r:return pntpos()
+
+r-->>-p:return rtkpos
+end
+
+end
+p->>-p: return end
+
+
+
+
+
+```
+
+
+
+
+
 
 
 -------

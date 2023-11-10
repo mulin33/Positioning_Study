@@ -10,7 +10,6 @@ int main()
 {
 	/*初始化*/
 	filopt_t fopt = { "" };
-	FILE *fp;
 
 	/*参数设置*/
 	prcopt_t prcopt = prcopt_default;
@@ -18,10 +17,9 @@ int main()
 	prcopt.mode = PMODE_PPP_STATIC;
 
 	prcopt.navsys = SYS_ALL;
-	prcopt.sateph = EPHOPT_PREC;
-	prcopt.refpos = 1;
+	prcopt.sateph = EPHOPT_PREC;	//卫星位置来源精密星历sp3
 	prcopt.glomodear = 0;
-	solopt.timef = 1;
+	solopt.timef = 1;	//time format
 	solopt.posf = SOLF_LLH;
 	
 	
@@ -41,6 +39,8 @@ int main()
 
 	/*ppp处理*/
 	ppp_process(&prcopt, &solopt, &fopt,outfile);
+
+	return 0;
 	
 	
 }

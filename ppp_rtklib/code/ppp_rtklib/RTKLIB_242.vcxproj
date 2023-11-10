@@ -77,7 +77,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>false</SDLCheck>
       <AdditionalIncludeDirectories>E:\RTKLIB\RTKLIB_VS\RTKLIB\RTKLIB_242\RTKLIB_242\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_LIB;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;ENAGLO;DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_LIB;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -132,8 +132,9 @@
     <ClCompile Include="error_model.c" />
     <ClCompile Include="freeData.c" />
     <ClCompile Include="geoidh.c" />
-    <ClCompile Include="input_output.c" />
+    <ClCompile Include="sort.c" />
     <ClCompile Include="matrix.c" />
+    <ClCompile Include="outhead.c" />
     <ClCompile Include="pntpos.c" />
     <ClCompile Include="ppp.c" />
     <ClCompile Include="ppp_main.c" />

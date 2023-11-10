@@ -69,9 +69,6 @@
     <ClCompile Include="clutter.c">
       <Filter>源文件\tool</Filter>
     </ClCompile>
-    <ClCompile Include="input_output.c">
-      <Filter>源文件\tool</Filter>
-    </ClCompile>
     <ClCompile Include="ppp.c">
       <Filter>源文件\model</Filter>
     </ClCompile>
@@ -98,6 +95,12 @@
     </ClCompile>
     <ClCompile Include="freeData.c">
       <Filter>源文件\outresult</Filter>
+    </ClCompile>
+    <ClCompile Include="outhead.c">
+      <Filter>源文件\outresult</Filter>
+    </ClCompile>
+    <ClCompile Include="sort.c">
+      <Filter>源文件\tool</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

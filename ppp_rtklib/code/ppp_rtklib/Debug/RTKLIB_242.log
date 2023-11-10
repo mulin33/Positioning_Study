@@ -1,88 +1,12 @@
-﻿  uncompress.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  trace.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  time_string.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  solution.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  setpcv.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  satsysno.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  r_sp3.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  r_atx.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  rtkpos.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  rinex.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  preceph.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  ppp_process.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(202): warning C4101: “path”: 未引用的局部变量
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(356): warning C4013: “setpcv”未定义；假设外部返回 int
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(359): warning C4090: “初始化”: 不同的“const”限定符
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(379): warning C4047: “函数”:“sta_t *”与“sta_t (*)[64]”的间接级别不同
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(379): warning C4024: “importData”: 形参和实参 7 的类型不同
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(385): warning C4047: “函数”:“sta_t *”与“sta_t (*)[64]”的间接级别不同
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(385): warning C4024: “process”: 形参和实参 7 的类型不同
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(392): warning C4013: “freeData”未定义；假设外部返回 int
-  ppp_main.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_main.c(43): warning C4013: “ppp_process”未定义；假设外部返回 int
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_main.c(13): warning C4101: “fp”: 未引用的局部变量
-  ppp.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  pntpos.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  matrix.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  input_output.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  geoidh.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  freeData.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  error_model.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
+﻿  ppp_process.c
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(250): warning C4090: “初始化”: 不同的“const”限定符
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(268): warning C4047: “函数”:“sta_t *”与“sta_t (*)[64]”的间接级别不同
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(268): warning C4024: “importData”: 形参和实参 7 的类型不同
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(274): warning C4047: “函数”:“sta_t *”与“sta_t (*)[64]”的间接级别不同
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(274): warning C4024: “process”: 形参和实参 7 的类型不同
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(281): warning C4013: “freeData”未定义；假设外部返回 int
+  sort.c
   正在生成代码...
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\freedata.c(25): warning C4716: “freeData”: 必须返回一个值
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(347): warning C4715: “importData”: 不是所有的控件路径都返回值
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(393): warning C4716: “ppp_process”: 必须返回一个值
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\ppp_process.c(373): warning C4716: “process”: 必须返回一个值
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtkpos.c(288): warning C4715: “rtkpos”: 不是所有的控件路径都返回值
-  正在编译...
-  ephemeris.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  coordinate.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  clutter.c
-e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): warning C4005: “ENAGLO”: 宏重定义
-  e:\e_book\gnss\gnss_ppp\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\rtklib.h(53): note: 命令行参数: 参见前面的“ENAGLO”定义
-  正在生成代码...
-  RTKLIB_242.vcxproj -> E:\E_Book\GNSS\GNSS_PPP\测绘2002-20202698-林芬芬\作业三\code\ppp_rtklib\Debug\RTKLIB_242.exe
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(282): warning C4716: “ppp_process”: 必须返回一个值
+e:\mu\github_upload\positioning_study\ppp_rtklib\code\ppp_rtklib\ppp_process.c(262): warning C4716: “process”: 必须返回一个值
+  RTKLIB_242.vcxproj -> E:\Mu\github_Upload\Positioning_Study\ppp_rtklib\code\ppp_rtklib\Debug\RTKLIB_242.exe
