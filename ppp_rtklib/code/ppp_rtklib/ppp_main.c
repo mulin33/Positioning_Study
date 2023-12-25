@@ -18,8 +18,8 @@ int main()
 
 	prcopt.navsys = SYS_ALL;
 	prcopt.sateph = EPHOPT_PREC;	//卫星位置来源精密星历sp3
-	prcopt.glomodear = 0;
-	solopt.timef = 1;	//time format
+	prcopt.glomodear = 0;	/* GLONASS AR mode (0:off,1:on,2:auto cal,3:ext cal) */
+	solopt.timef = 1;	/* time format (0:sssss.s,1:yyyy/mm/dd hh:mm:ss.s) */
 	solopt.posf = SOLF_LLH;
 	
 	
